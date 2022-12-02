@@ -1,0 +1,30 @@
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 342px;
+  height: 596px;
+  margin: 10px auto 50px auto;
+  display: none;
+  /* width: 950px; */
+}
+.left {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.right {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+@media only screen and (max-width: 500px) {
+  .carousel {
+    display: block;
+  }
+}
