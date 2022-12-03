@@ -26,8 +26,8 @@ import useWeb3Modal from "../../hooks/useWeb3Modal";
 import { REWARD_RATE, TOTAL_RATE } from "../../config/Constants";
 import Buttons from "../../components/Buttons";
 const NetEarning = styled(Box)`
-  background: #00a57630;
-  border: 1px solid #00a576;
+  background: #189AB430;
+  border: 1px solid #189AB4;
   box-sizing: border-box;
   border-radius: 8px;
   color: ${({ theme }) => theme.white1};
@@ -84,7 +84,7 @@ const EarningDetail = styled(Box)`
 `;
 const EarningDetailStack = styled(Stack)`
   background: #00a57630;
-  border: 1px solid #00a576;
+  border: 1px solid #189AB4;
   padding: 9px;
   box-sizing: border-box;
   border-radius: 8px;
@@ -129,7 +129,7 @@ const MyPositionsDetails = styled.div`
     margin: 0px 40px;
     position: relative;
     padding: 10px 35px;
-    background: linear-gradient(91.56deg, #131a1e 44.93%, #003022 140.31%);
+    background: linear-gradient(90deg, #0E050F 0%, #170B3B 100%);
     border-radius: 16px;
   }
   ${({ theme }) => theme.mediaWidth.upToSmall`
